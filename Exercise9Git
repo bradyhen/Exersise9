@@ -1,0 +1,14 @@
+git config --global user.name "Braedan Henegar"
+git config --global user.email "brady.henegar@gmail.com"
+git config --global core.editor "Demo"
+
+git clone <https://github.com/bradyhen/Exersise9/new/main>
+
+git add exercise9.py
+git commit -m "Now added a Python script with a basic function"
+git push origin main
+
+git pull origin main
+git add goodbye.py
+git commit -m "Added another python function to the script"
+git push origin main
